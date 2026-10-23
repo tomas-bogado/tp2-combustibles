@@ -11,4 +11,5 @@
 # - re           (Validación mediante Expresiones Regulares)
 # - datetime     (Manejo, parseo y validación de fechas y tiempos)
 # - unittest     (Ejecución de suite de pruebas unitarias y de integración)
+# - sys          (Manipulación del path de importación y rutas de búsqueda de módulos)
 # ==============================================================================
