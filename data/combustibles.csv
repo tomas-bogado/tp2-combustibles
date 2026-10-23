@@ -1,0 +1,51 @@
+estacion,localidad,combustible,fecha,precio
+YPF Centro,Rosario,Nafta Super,01-09-2026,1150.50
+YPF Centro,Rosario,Nafta Premium,01-09-2026,1420.00
+Shell Pellegrini,Rosario,Nafta Super,15-08-2026,1120.00
+Shell Pellegrini,Rosario,Nafta Super,05-09-2026,1180.00
+Shell Pellegrini,Rosario,Nafta Premium,05-09-2026,1450.00
+Axion Oro,Rosario,Nafta Super,02-09-2026,1160.00
+Axion Oro,Rosario,Gasoil,02-09-2026,1250.00
+Puma Alberdi,Rosario,Nafta Super,03-09-2026,1140.00
+Puma Alberdi,Rosario,Nafta Premium,03-09-2026,1410.00
+Refinor Sur,Rosario,Nafta Super,10-08-2026,1090.00
+Refinor Sur,Rosario,Nafta Super,04-09-2026,1130.00
+YPF San Martin,Santa Fe,Nafta Super,01-09-2026,1140.00
+YPF San Martin,Santa Fe,Nafta Premium,01-09-2026,1415.00
+Shell Bulevar,Santa Fe,Nafta Super,02-09-2026,1170.00
+Shell Bulevar,Santa Fe,Gasoil,02-09-2026,1240.00
+Axion Costanera,Santa Fe,Nafta Super,03-09-2026,1155.00
+Puma Candioti,Santa Fe,Nafta Super,01-09-2026,1135.00
+Puma Candioti,Santa Fe,Nafta Premium,01-09-2026,1405.00
+YPF Centro,Cordoba,Nafta Super,01-09-2026,1160.00
+YPF Centro,Cordoba,Nafta Premium,01-09-2026,1430.00
+Shell Colon,Cordoba,Nafta Super,02-09-2026,1190.00
+Shell Colon,Cordoba,Gasoil,02-09-2026,1270.00
+Axion General Paz,Cordoba,Nafta Super,04-09-2026,1175.00
+Puma Nueva Cordoba,Cordoba,Nafta Super,01-09-2026,1150.00
+Puma Nueva Cordoba,Cordoba,Nafta Premium,01-09-2026,1420.00
+YPF Obelisco,CABA,Nafta Super,01-09-2026,1180.00
+YPF Obelisco,CABA,Nafta Premium,01-09-2026,1460.00
+Shell Libertador,CABA,Nafta Super,02-09-2026,1210.00
+Shell Libertador,CABA,Gasoil,02-09-2026,1300.00
+Axion Palermo,CABA,Nafta Super,03-09-2026,1195.00
+Puma Recoleta,CABA,Nafta Super,01-09-2026,1170.00
+Puma Recoleta,CABA,Nafta Premium,01-09-2026,1440.00
+YPF Ruta 9,Campana,Nafta Super,01-09-2026,1150.00
+Shell Ruta 9,Campana,Nafta Super,02-09-2026,1170.00
+YPF Terminal,Rosario,Gasoil,06-09-2026,1260.00
+Shell Pellegrini,Rosario,Gasoil,06-09-2026,1280.00
+Axion Oro,Rosario,Nafta Premium,05-09-2026,1445.00
+Puma Alberdi,Rosario,Gasoil,04-09-2026,1245.00
+YPF San Martin,Santa Fe,Gasoil,03-09-2026,1235.00
+Shell Bulevar,Santa Fe,Nafta Premium,04-09-2026,1430.00
+YPF Centro,Cordoba,Gasoil,03-09-2026,1255.00
+Shell Colon,Cordoba,Nafta Premium,05-09-2026,1465.00
+YPF Obelisco,CABA,Gasoil,04-09-2026,1310.00
+Shell Libertador,CABA,Nafta Premium,05-09-2026,1490.00
+YPF Centro,Rosario,Nafta Super,10-09-2026,1200.00
+Shell Pellegrini,Rosario,Nafta Super,10-09-2026,1210.00
+Axion Oro,Rosario,Nafta Super,10-09-2026,1205.00
+YPF San Martin,Santa Fe,Nafta Super,10-09-2026,1190.00
+Shell Bulevar,Santa Fe,Nafta Super,10-09-2026,1215.00
+YPF Centro,Cordoba,Nafta Super,10-09-2026,1210.00
