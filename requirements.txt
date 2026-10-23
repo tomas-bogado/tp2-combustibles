@@ -1,0 +1,14 @@
+# ==============================================================================
+# DEPENDENCIAS DEL PROYECTO — TP2 COMBUSTIBLES
+# ==============================================================================
+# Este proyecto no requiere la instalación de paquetes o librerías externas
+# mediante pip. Solo se necesita un entorno con Python 3.x instalado.
+#
+# Módulos de la Biblioteca Estándar de Python utilizados:
+# - os          (Manejo y resolución de rutas dinámicas del sistema de archivos)
+# - csv          (Lectura y escritura de archivos tabulares CSV)
+# - json         (Carga y procesamiento de estructuras de datos JSON)
+# - re           (Validación mediante Expresiones Regulares)
+# - datetime     (Manejo, parseo y validación de fechas y tiempos)
+# - unittest     (Ejecución de suite de pruebas unitarias y de integración)
+# ==============================================================================
