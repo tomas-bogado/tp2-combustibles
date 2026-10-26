@@ -38,7 +38,7 @@ def ejecutar_aplicacion():
                 if os.path.exists(ruta_json):
                     datos_crudos = cargar_json(ruta_json)
                 else:
-                    print(f"[AVISO] No se encontró {ruta_json}")
+                    print(f"[AVISO] No se enntró {ruta_json}")
                     continue
                 
             print(f"[OK] Lectura exitosa: {len(datos_crudos)} registros cargados.")
@@ -58,7 +58,7 @@ def ejecutar_aplicacion():
                 for idx, r in enumerate(resultados, start=1):
                     print(f"{idx}. Estación: {r.get('estacion')} | Precio: ${r.get('precio')} | Vigencia: {r.get('fecha').strftime('%d-%m-%Y')}")
                 
-                # Asegurar que outputs exista y exportar
+                # Asegurar que outputs exicosta y exportar
                 output_dir = os.path.join(ROOT_DIR, "outputs")
                 os.makedirs(output_dir, exist_ok=True)
                 exportar_consulta(resultados, os.path.join(output_dir, f"resultado_consulta_{formato}.csv"))

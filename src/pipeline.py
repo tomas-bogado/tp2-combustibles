@@ -1,7 +1,6 @@
 import os
 from datetime import datetime
 from fuentes import cargar_csv, cargar_json
-
 from datetime import datetime
 
 def normalizar_precios(registros):
@@ -11,7 +10,7 @@ def normalizar_precios(registros):
     """
     registros_normalizados = []
     rechazados = []
-    
+   
     for fila in registros:
         fila_limpia = fila.copy()
         
@@ -40,11 +39,11 @@ if __name__ == "__main__":
     datos_crudos = cargar_csv()
     print(f"Registros crudos leídos: {len(datos_crudos)}")
     
-    datos_limpios = normalizar_precios(datos_crudos)
+    datos_limpios, rechazos = normalizar_precios(datos_crudos)
     print(f"Registros normalizados con éxito: {len(datos_limpios)}")
     if datos_limpios:
         print("Ejemplo de registro normalizado:", datos_limpios[0])
 
     datos_json_crudos = cargar_json()
-    datos_json_limpios = normalizar_precios(datos_json_crudos)
+    datos_json_limpios, rechazos_json = normalizar_precios(datos_json_crudos)
     print(f"JSON normalizados con éxito: {len(datos_json_limpios)}")
