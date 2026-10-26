@@ -56,7 +56,7 @@ def ejecutar_aplicacion():
                 print("No se encontraron estaciones para los criterios indicados.")
             else:
                 for idx, r in enumerate(resultados, start=1):
-                    print(f"{idx}. Estación: {r.get('estacion')} | Precio: ${r.get('precio')} | Vigencia: {r.get('fecha')}")
+                    print(f"{idx}. Estación: {r.get('estacion')} | Precio: ${r.get('precio')} | Vigencia: {r.get('fecha').strftime('%d-%m-%Y')}")
                 
                 # Asegurar que outputs exista y exportar
                 output_dir = os.path.join(ROOT_DIR, "outputs")

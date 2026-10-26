@@ -49,7 +49,11 @@ def seleccionar_vigentes(datos: list[dict], fecha_ref: str) -> list[dict]:
             continue
 
         # [Tarea: Identificación única] Crea una clave combinada por estación y combustible
-        clave = (row.get("estacion"), row.get("combustible"))
+        clave = (
+        row.get("estacion"),
+        row.get("localidad"),
+        row.get("combustible"),
+        )
 
         # [Tarea: Selección del más reciente] Guarda el registro o actualiza si encuentra uno más nuevo
         if clave not in recientes:
@@ -105,5 +109,8 @@ def exportar_consulta(resultados: list[dict], ruta_salida: str):
     with open(ruta_salida, mode="w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=keys)
         writer.writeheader()
-        writer.writerows(resultados)
+        for fila in resultados:
+            fila_salida = fila.copy()
+            fila_salida["fecha"] = fila_salida["fecha"].strftime("%d-%m-%Y")
+            writer.writerow(fila_salida)
     print(f"Reporte exportado con éxito en: {ruta_salida}")
