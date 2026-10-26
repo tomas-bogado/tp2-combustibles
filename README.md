@@ -53,7 +53,7 @@ El programa genera una tabla ordenada (en pantalla y/o archivo de salida) con la
   1. `estacion` (texto): Nombre o identificador comercial de la estación de servicio.
   2. `localidad` (texto): Ciudad o zona geográfica donde se ubica la estación.
   3. `combustible` (texto): Tipo de producto (Nafta Super, Nafta Premium, Gasoil).
-  4. `fecha` (texto AAAA-MM-DD): Fecha en la que entró en vigencia el precio registrado.
+ 4. `fecha` (texto DD-MM-AAAA): Fecha en la que entró en vigencia el precio registrado (por ejemplo, 04-09-2026 representa el 4 de septiembre de 2026). registrado.
   5. `precio` (numérico decimal): Precio por unidad en pesos.
 
 ### Muestra y alcance del conjunto de datos
