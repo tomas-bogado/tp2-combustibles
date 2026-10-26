@@ -20,9 +20,9 @@ class TestCombustibles(unittest.TestCase):
     def setUp(self):
         """Datos de prueba simulados para los casos."""
         self.datos_prueba = [
-            {"estacion": "YPF Centro", "localidad": "Rosario", "combustible": "Nafta Super", "fecha": "2026-05-10", "precio": "1200.50"},
-            {"estacion": "YPF Centro", "localidad": "Rosario", "combustible": "Nafta Super", "fecha": "2026-05-15", "precio": "1250.00"},
-            {"estacion": "Shell Norte", "localidad": "Rosario", "combustible": "Nafta Super", "fecha": "2026-05-12", "precio": "1230.00"},
+            {"estacion": "YPF Centro", "localidad": "Rosario", "combustible": "Nafta Super", "fecha": "10-05-2026", "precio": "1200.50"},
+            {"estacion": "YPF Centro", "localidad": "Rosario", "combustible": "Nafta Super", "fecha": "15-05-2026", "precio": "1250.00"},
+            {"estacion": "Shell Norte", "localidad": "Rosario", "combustible": "Nafta Super", "fecha": "12-05-2026", "precio": "1230.00"},
             {"estacion": "Axion Sur", "localidad": "Funes", "combustible": "Gasoil", "fecha": "fecha_invalida", "precio": "abc"}
         ]
 
@@ -46,8 +46,8 @@ class TestCombustibles(unittest.TestCase):
 
     def test_3_equivalencia_formatos(self):
         """Prueba 3: Propiedad relevante (equivalencia de procesamiento)."""
-        lote_csv = [{"estacion": "Shell", "localidad": "Rosario", "combustible": "Nafta Super", "fecha": "2026-05-01", "precio": "1000"}]
-        lote_json = [{"estacion": "Shell", "localidad": "Rosario", "combustible": "Nafta Super", "fecha": "2026-05-01", "precio": "1000"}]
+        lote_csv = [{"estacion": "Shell", "localidad": "Rosario", "combustible": "Nafta Super", "fecha": "01-05-2026", "precio": "1000"}]
+        lote_json = [{"estacion": "Shell", "localidad": "Rosario", "combustible": "Nafta Super", "fecha": "01-05-2026", "precio": "1000"}]
         
         norm_csv, _ = normalizar_precios(lote_csv)
         norm_json, _ = normalizar_precios(lote_json)
